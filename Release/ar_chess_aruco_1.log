@@ -1,0 +1,17 @@
+﻿Build started 26/6/2015 3:35:33 μμ.
+     1>Project "C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1_with_animation_and_robust\ar_chess_aruco_1\ar_chess_aruco_1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ar_chess_aruco_1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ar_chess_aruco_1.vcxproj -> C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1_with_animation_and_robust\Release\ar_chess_aruco_1.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\ar_chess_aruco_1.unsuccessfulbuild".
+         Touching "Release\ar_chess_aruco_1.lastbuildstate".
+     1>Done Building Project "C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1_with_animation_and_robust\ar_chess_aruco_1\ar_chess_aruco_1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

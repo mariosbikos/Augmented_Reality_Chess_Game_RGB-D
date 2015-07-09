@@ -1,0 +1,747 @@
+﻿Build started 14/5/2015 3:34:19 μμ.
+     1>Project "C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\ar_chess_aruco_1\ar_chess_aruco_1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ar_chess_aruco_1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\libs\Qt\5.4\msvc2010_opengl\include /IC:\libs\glut /I"C:\libs\GLM\glm-src\glm" /I"C:\Program Files (x86)\Intel\RSSDK\sample\common\include" /I"C:\Program Files (x86)\Intel\RSSDK\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /IC:\libs\opencv\build\include\opencv2 /IC:\libs\opencv\build\include\opencv /IC:\libs\opencv\build\include /I"C:\libs\aruco125_to_use\aruco125-build\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CChess.cpp Common.cpp CommonObjects.cpp ContourFunctions.cpp CopyStreamsToMats.cpp DeleteAllocations.cpp IdleGL.cpp KeyboardControls.cpp ObjLoader.cpp PinchPointFunctions.cpp ReadArguments.cpp RenderGL.cpp RenderSettings.cpp ResizeGL.cpp Settings.cpp SetupGL.cpp ar_chess_aruco_1.cpp
+         ar_chess_aruco_1.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\ar_chess_aruco_1.cpp(165): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+         SetupGL.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         RenderGL.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendergl.cpp(93): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendergl.cpp(96): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendergl.cpp(259): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendergl.cpp(261): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendergl.cpp(402): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+         KeyboardControls.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         IdleGL.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(142): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(143): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(145): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(146): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(147): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(148): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(149): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(150): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(151): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(152): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(153): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(154): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(157): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(158): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(159): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(160): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(161): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(162): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(163): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(164): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(165): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(166): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(167): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(168): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(180): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(185): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(209): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(226): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(248): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(250): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\idlegl.cpp(250): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+         CopyStreamsToMats.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         CChess.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\cchess.cpp(7): warning C4482: nonstandard extension used: enum 'PinchState' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\cchess.cpp(120): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\cchess.cpp(197): warning C4482: nonstandard extension used: enum 'GameWinner' used in qualified name
+         Generating Code...
+         Compiling...
+         Settings.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\settings.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+         ResizeGL.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         RenderSettings.cpp
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendersettings.cpp(10): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendersettings.cpp(21): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\rendersettings.cpp(33): warning C4482: nonstandard extension used: enum 'PieceMaterial' used in qualified name
+         ReadArguments.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         PinchPointFunctions.cpp
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         ObjLoader.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(61): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(123): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(133): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(149): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(156): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\objloader.cpp(154): warning C4101: 'uvIndex' : unreferenced local variable
+         DeleteAllocations.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         ContourFunctions.cpp
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\contourfunctions.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\contourfunctions.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\contourfunctions.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+         CommonObjects.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Common.cpp
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(79): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(86): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(90): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(107): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\cameraparameters.h(130): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(76): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\marker.h(100): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(82): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(93): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(96): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(112): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(119): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(122): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(147): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(159): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\board.h(167): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(87): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(98): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(164): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(196): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(258): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(281): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\markerdetector.h(285): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(83): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(108): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\libs\aruco125_to_use\aruco125-build\include\aruco\boarddetector.h(109): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(8): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(10): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(12): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(14): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\mariosbikos\dropbox\diploma_thesis_bikos\[1] mainprogram-thesis\ar_chess_aruco_1\ar_chess_aruco_1\constants.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\Debug\ar_chess_aruco_1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\libs\Qt\5.4\msvc2010_opengl\lib /LIBPATH:C:\libs\glut /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\lib\Win32" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\sample\common\lib\Win32\v100" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /LIBPATH:C:\libs\opencv\build\x86\vc10\lib /LIBPATH:"C:\libs\aruco125_to_use\aruco125-build\lib" Qt5Cored.lib libpxcutils_d.lib libpxc_d.lib glut32.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib aruco125.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ar_chess_aruco_1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\Debug\ar_chess_aruco_1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\Debug\ar_chess_aruco_1.lib" /MACHINE:X86 Debug\ar_chess_aruco_1.exe.embed.manifest.res
+         Debug\ar_chess_aruco_1.obj
+         Debug\CBishop.obj
+         Debug\CBoard.obj
+         Debug\CChess.obj
+         Debug\CKing.obj
+         Debug\CKnight.obj
+         Debug\Common.obj
+         Debug\CommonObjects.obj
+         Debug\ContourFunctions.obj
+         Debug\CopyStreamsToMats.obj
+         Debug\CPawn.obj
+         Debug\CPiece.obj
+         Debug\CQueen.obj
+         Debug\CRook.obj
+         Debug\DeleteAllocations.obj
+         Debug\IdleGL.obj
+         Debug\KeyboardControls.obj
+         Debug\LineFunctions.obj
+         Debug\ObjLoader.obj
+         Debug\PinchPointFunctions.obj
+         Debug\ReadArguments.obj
+         Debug\RenderCV.obj
+         Debug\RenderGL.obj
+         Debug\RenderSettings.obj
+         Debug\ResizeGL.obj
+         Debug\Settings.obj
+         Debug\SetupGL.obj
+         Debug\UCIFunctions.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ar_chess_aruco_1.exe.embed.manifest" /manifest Debug\ar_chess_aruco_1.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ar_chess_aruco_1.vcxproj -> C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\Debug\ar_chess_aruco_1.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ar_chess_aruco_1.unsuccessfulbuild".
+         Touching "Debug\ar_chess_aruco_1.lastbuildstate".
+     1>Done Building Project "C:\Users\mariosbikos\Dropbox\Diploma_Thesis_Bikos\[1] MainProgram-Thesis\ar_chess_aruco_1\ar_chess_aruco_1\ar_chess_aruco_1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.36

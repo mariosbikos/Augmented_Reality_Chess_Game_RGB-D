@@ -1,6 +1,7 @@
 # Diploma Thesis: "Dynamic Simulation of Virtual Objects for Augmented Reality Applications. Development of An Augmented Reality Chess"
 
-Demo Video: https://www.youtube.com/watch?v=sqAIvO6wCQI
+YouTube Video Playlist: https://www.youtube.com/playlist?list=PLhmsY0CqZsmPTAaMi-jzdsAr4nx75kSkK
+
 
 # Abstract
 
@@ -20,9 +21,4 @@ Occlusion Handling
 
 
 
-
-
-YouTube Video Playlist:
-
-[![ScreenShot](http://postimg.org/image/thirh743j/)](https://www.youtube.com/playlist?list=PLhmsY0CqZsmPTAaMi-jzdsAr4nx75kSkK)
 

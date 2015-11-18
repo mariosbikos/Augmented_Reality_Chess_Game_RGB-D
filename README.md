@@ -24,5 +24,5 @@ Occlusion Handling
 
 YouTube Video Playlist:
 
-[![ScreenShot](https://raw.githubusercontent.com/mariosbikos/Diploma_Thesis_AR_CHESS/master/Screenshots/chess_manipulate.png)](https://www.youtube.com/playlist?list=PLhmsY0CqZsmPTAaMi-jzdsAr4nx75kSkK)
+[![ScreenShot](http://postimg.org/image/thirh743j/)](https://www.youtube.com/playlist?list=PLhmsY0CqZsmPTAaMi-jzdsAr4nx75kSkK)
 

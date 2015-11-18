@@ -1,7 +1,7 @@
 # Diploma Thesis: "Dynamic Simulation of Virtual Objects for Augmented Reality Applications. Development of An Augmented Reality Chess"
 
 YouTube Video Playlist: https://www.youtube.com/playlist?list=PLhmsY0CqZsmPTAaMi-jzdsAr4nx75kSkK
-
+More Details: http://mariosbikos.com/an-interactive-augmented-reality-chess
 
 # Abstract
 

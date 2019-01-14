@@ -17,7 +17,7 @@ Virtual Object Manipulation
 
 Occlusion Handling
 
-![Part 2](http://share.gifyoutube.com/mPajDd.gif "Occlusion Handling")
+<img src="/chess2.gif?raw=true" width="500px">
 
 
 

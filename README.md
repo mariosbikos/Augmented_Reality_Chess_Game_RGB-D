@@ -11,7 +11,7 @@ In order to enhance immersion in augmented reality systems, solutions must not o
 
 Virtual Object Manipulation
 
-![Part 1](http://share.gifyoutube.com/yxGALE.gif "Virtual Object Manipulation")
+<img src="/yxGALE.gif?raw=true" width="500px">
 
 # Part 2
 
